@@ -1,0 +1,50 @@
+/* Body */
+
+body {
+     background-color:#eef1f1;
+}
+
+/* Type */
+
+@font-face {
+    font-family: 'Pro-Sbold';
+    src: url('pro-sbold.woff2') format('woff2'),
+         url('pro-sbold.woff') format('woff'),
+         url('pro-sbold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pro-Reg';
+    src: url('pro-reg.woff2') format('woff2'),
+         url('pro-reg.woff') format('woff'),
+         url('pro-reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3 {
+    font-family: 'Pro-Reg', sans-serif;
+	color:#0f0f0f;
+	line-height: 140%;
+	font-size:140%;
+	margin-left:30px;
+	margin-right:30px;
+}
+
+a.link, a.link:hover {
+   font-family: 'Pro-Sbold', sans-serif;
+   color:#0f0f0f;
+   text-decoration:none;
+}
+
+a.link:hover {
+   text-decoration:underline;
+}
+
+/* Fixes */
+
+.buffer-top {
+  margin-top:20px; 
+}
